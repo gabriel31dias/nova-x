@@ -1,0 +1,18 @@
+- generic [ref=e8]:
+  - img "Valen Finance" [ref=e9]
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - heading "Entrar na sua conta" [level=1] [ref=e12]
+      - paragraph [ref=e13]: Acesse o painel com seu e-mail e senha.
+    - generic [ref=e14]:
+      - text: E-mail
+      - textbox "E-mail" [ref=e15]:
+        - /placeholder: voce@empresa.com
+    - generic [ref=e16]:
+      - text: Senha
+      - textbox "Senha" [ref=e17]:
+        - /placeholder: ••••••••
+    - button "Entrar" [ref=e18] [cursor=pointer]
+    - paragraph [ref=e19]:
+      - text: Não tem conta?
+      - button "Cadastre-se" [ref=e20] [cursor=pointer]
